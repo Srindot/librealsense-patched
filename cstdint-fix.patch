@@ -1,0 +1,56 @@
+diff -ruN a/common/opengl3.h b/common/opengl3.h
+--- a/common/opengl3.h
++++ b/common/opengl3.h
+@@ -10,6 +10,7 @@
+ #include <unordered_map>
+ #include <vector>
+ #include <memory>
++#include <cstdint>
+
+ void _check_gl_error(const char *file, int line);
+ void clear_gl_errors();
+diff -ruN a/src/core/debug.h b/src/core/debug.h
+--- a/src/core/debug.h
++++ b/src/core/debug.h
+@@ -4,6 +4,7 @@
+
+ #include "extension.h"
+ #include <vector>
++#include <cstdint>
+
+ namespace librealsense
+ {
+diff -ruN a/src/core/frame-additional-data.h b/src/core/frame-additional-data.h
+--- a/src/core/frame-additional-data.h
++++ b/src/core/frame-additional-data.h
+@@ -8,7 +8,7 @@
+ #include <memory>
+ #include <array>
+ #include <cstring>  // memcpy
+-
++#include <cstdint>
+
+ namespace librealsense {
+
+diff -ruN a/src/core/frame-interface.h b/src/core/frame-interface.h
+--- a/src/core/frame-interface.h
++++ b/src/core/frame-interface.h
+@@ -5,6 +5,7 @@
+ #include <librealsense2/h/rs_frame.h>
+ #include <memory>
+ #include <iosfwd>
++#include <cstdint>
+
+
+ namespace librealsense {
+diff -ruN a/src/core/stream-profile-interface.h b/src/core/stream-profile-interface.h
+--- a/src/core/stream-profile-interface.h
++++ b/src/core/stream-profile-interface.h
+@@ -10,7 +10,7 @@
+ #include <memory>
+ #include <vector>
+ #include <ostream>
+-
++#include <cstdint>
+
+ namespace librealsense {
