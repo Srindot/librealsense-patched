@@ -15,3 +15,17 @@ The official AUR package for `librealsense2` failed to build due to a missing he
       |                   ^~~
 /home/pika/.cache/yay/librealsense/src/librealsense-2.55.1/src/core/frame-interface.h:6:1: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
 ```
+
+## Installation
+
+1. **Clone this repository:**
+    ```
+    git clone https://github.com/srindot/librealsense-patched.git
+    cd librealsense-patched
+    ```
+
+2. **Build and install the package:**
+    ```
+    makepkg -si
+    ```
+
