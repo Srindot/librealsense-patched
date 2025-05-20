@@ -7,7 +7,7 @@ Custom Arch Linux PKGBUILD for Intel® RealSense™ SDK 2.0 (librealsense), with
 
 ## Background
 
-The official AUR package for `librealsense` failed to build due to a missing header file (`<cstdint>`), which resulted in errors like:
+The official AUR package for `librealsense` failed to build due to a missing header file (`<cstdint>`), which resulted in error like:
 
 ```txt
 /home/pika/.cache/yay/librealsense/src/librealsense-2.55.1/src/core/frame-interface.h:27:19: error: ‘uint8_t’ does not name a type
