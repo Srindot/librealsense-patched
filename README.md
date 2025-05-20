@@ -19,13 +19,13 @@ The official AUR package for `librealsense2` failed to build due to a missing he
 ## Installation
 
 1. **Clone this repository:**
-    ```
+    ```bash
     git clone https://github.com/srindot/librealsense-patched.git
     cd librealsense-patched
     ```
 
 2. **Build and install the package:**
-    ```
+    ```bash
     makepkg -si
     ```
 
