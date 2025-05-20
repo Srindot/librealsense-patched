@@ -19,6 +19,17 @@ this is probably fixable by adding ‘#include <cstdint>’
 
 ## Installation
 
+### A Install from Prebuilt Binary
+Download the latest .pkg.tar.zst file from the Releases page.
+
+Install the package using pacman:
+```bash
+sudo pacman -U librealsense-2.55.1-2-x86_64.pkg.tar.zst
+
+```
+
+### B Build from Source
+
 1. **Clone this repository:**
     ```bash
     git clone https://github.com/srindot/librealsense-patched.git
@@ -29,6 +40,7 @@ this is probably fixable by adding ‘#include <cstdint>’
     ```bash
     makepkg -si
     ```
+
 
 ## Usage
 
