@@ -43,6 +43,8 @@ To use your camera:
     ```
 3. The RealSense Viewer application will open, allowing you to view live streams, capture photos, and record videos from your camera.
 
+Make sure your camera is properly connected and detected before launching the viewer.
+
 ## Credits
 
 - [Intel RealSense](https://github.com/IntelRealSense/librealsense) for the original SDK
@@ -53,9 +55,3 @@ To use your camera:
 This repository contains packaging scripts and patches.  
 See the upstream [librealsense license](https://github.com/IntelRealSense/librealsense/blob/master/LICENSE) for details.
    
-
-Make sure your camera is properly connected and detected before launching the viewer.
-
-
-
-
