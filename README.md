@@ -29,3 +29,22 @@ The official AUR package for `librealsense2` failed to build due to a missing he
     makepkg -si
     ```
 
+## Usage
+
+This package is used to capture video and images from Intel® RealSense™ cameras.
+
+To use your camera:
+
+1. **Connect your Intel RealSense camera** to your computer using a USB 3.0.
+2. Once the camera is connected, verify its functionality by running the following command:
+    ```bash
+    realsense-viewer
+    ```
+3. The RealSense Viewer application will open, allowing you to view live streams, capture photos, and record videos from your camera.
+   
+
+Make sure your camera is properly connected and detected before launching the viewer.
+
+
+
+
