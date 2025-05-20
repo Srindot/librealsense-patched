@@ -13,7 +13,8 @@ The official AUR package for `librealsense2` failed to build due to a missing he
 /home/pika/.cache/yay/librealsense/src/librealsense-2.55.1/src/core/frame-interface.h:27:19: error: ‘uint8_t’ does not name a type
    27 | virtual const uint8_t * get_frame_data() const = 0;
       |                   ^~~
-/home/pika/.cache/yay/librealsense/src/librealsense-2.55.1/src/core/frame-interface.h:6:1: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/pika/.cache/yay/librealsense/src/librealsense-2.55.1/src/core/frame-interface.h:6:1: note: ‘uint8_t’ is defined in header ‘<cstdint>’;
+this is probably fixable by adding ‘#include <cstdint>’
 ```
 
 ## Installation
